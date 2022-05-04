@@ -1,0 +1,55 @@
+.App {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Table-center {
+ margin-left:auto;
+ margin-right: auto;
+}
+
+.App-header {
+  background-color: #9cb6e7;
+  min-height: 10vh;
+  min-width: 199vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(167, 19, 19);
+}
+
+.App-text {
+  background-color: #129c12;
+  height: 5px;
+  width: 210vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 5vmin);
+  color: rgb(145, 82, 82);
+}
+
+.App-title {
+  height: 5px;
+    width: 210vh;  
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
